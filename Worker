@@ -2,7 +2,8 @@ import akka.actor.{Props, ActorSystem, ActorSelection, Actor}
 import com.typesafe.config.ConfigFactory
 
 /**
-  * Created by OracleOAEC on 2017/7/17.
+  * Worker为整个集群的从节点 
+  * Worker继承了Actor
   */
 class Worker (val masterHost: String, val masterPort: Int) extends Actor{
   var master : ActorSelection = _
