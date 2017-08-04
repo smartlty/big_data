@@ -2,7 +2,7 @@
 
 SERVERS="node-3 node-4"
 PASSWORD=123456
-BASE_SERVER=172.16.203.100
+BASE_SERVER=192.168.236.157
 
 auto_ssh_copy_id() {
     expect -c "set timeout -1;
