@@ -1,6 +1,6 @@
 #!/bin/bash
 
-SERVERS="node-3.itcast.cn node-4.itcast.cn"
+SERVERS="node-3 node-4"
 PASSWORD=123456
 BASE_SERVER=172.16.203.100
 
